@@ -1,0 +1,183 @@
+*{
+  font-family: 'Exo', 'Oswald', sans-serif;
+  margin: 0; 
+  padding: 0;
+
+}
+
+body{
+    background-image: url("../images/sandpaper.png");
+    background-repeat: all; 
+    height: 100%;
+}
+
+.navbar-inverse{
+  border-radius: 0px;
+  box-shadow: 0px -5px 15px;
+  margin-bottom: 0;
+}
+
+.parallax { 
+    background-image: url("../images/image.jpg");
+    background-attachment: fixed;
+    background-position: 0% -5%;
+    background-repeat: no-repeat;
+    background-size: 100% 403px;
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px #000000;
+    line-height: 80px;
+    padding-bottom: 55px;
+  }
+
+  .parallax p{
+    font-size: 26px;
+    text-shadow: 2px 1px #000000;
+  }
+
+  .italic{
+    font-style: italic;
+  }
+
+  .bold{
+    font-weight: bolder;
+  }
+
+  .pdfs{
+    margin-top: 25px;
+  }
+
+  .topmargin{
+    margin-top: 25px;
+  }
+
+  .col-sm-4{
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  body{
+    height: 100%;
+  }
+
+  footer{
+    position: relative;
+    bottom: -10px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+   footer p{
+    background-color: seashell;
+    margin-bottom: 0;
+  }
+
+.programming{
+  position: absolute;
+  left: 30%;
+  box-shadow: 3px 4px 10px #000000;
+}
+.programmer{
+  position: absolute;
+  left: 30%;
+  box-shadow: 3px 4px 10px #000000;
+}
+.laptop{
+  position: absolute;
+  left: 30%;
+  box-shadow: 3px 4px 10px #000000;
+}
+
+
+aside{
+  clear: both;
+  float: right;
+  width: 40%;
+}
+
+aside p, aside h3{
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+.slider{
+  background: #ffffff;
+  width: 640px; 
+  position: relative;
+  padding-top: 424px; 
+  margin: 15px auto;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+  margin-left: 50px;
+}
+
+.slider>img{
+  position: absolute;
+  left: 0; top: 0;
+  transition: all 0.5s;
+}
+
+.slider input[name='slide_switch'] {
+  display: none;
+}
+
+#firstImage{
+  margin-left: 20%;
+}
+
+.slider label {
+  margin: 18px 0 0 18px;
+  border: 3px solid #999;
+  float: left;
+  cursor: pointer;
+  transition: all 0.5s;
+  opacity: 0.6;
+}
+
+.slider label img{
+  display: block;
+}
+
+.slider input[name='slide_switch']:checked+label {
+  border-color: #666;
+  opacity: 1;
+}
+
+.slider input[name='slide_switch'] ~ img {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.slider input[name='slide_switch']:checked+label+img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#project{
+  padding-top: 20px;
+  width: 100%;
+  clear: both;
+}
+#project h2{
+  padding-top: 40px;
+}
+
+#project img{
+  float: left;
+  padding-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 15%;
+}
+#project p{
+  float: left;
+  width: 45%;
+  margin-left: 50px;
+}
+
+hr{
+  clear: both;
+  border-color: black;
+}
